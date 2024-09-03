@@ -38,5 +38,20 @@ carros.forEach((car) => {
   console.log(car.preco.toFixed(2));
 });
 // Array
-
+const videoGames = ["Switch", "PS4", "XBOX"];
+for (let game of videoGames) {
+  console.log(game);
+}
+videoGames.forEach((game, index, array) => {
+  console.log(game + " - " + index);
+});
 // Objetos
+
+const pessoa = {
+  nome: "GUSTAVO",
+  idade: 19,
+};
+
+for (let person in pessoa) {
+  console.log(pessoa[person]);
+}
