@@ -48,10 +48,21 @@ videoGames.forEach((game, index, array) => {
 // Objetos
 
 const pessoa = {
-  nome: "GUSTAVO",
+  nome: "Gustavo",
+  sobrenome: "Mendes",
   idade: 19,
+  genero: "Masculino",
+  profissao: "Desenvolvedor Front End",
+  brasileiro: true,
 };
-
+console.log(pessoa);
 for (let person in pessoa) {
   console.log(pessoa[person]);
 }
+
+// Operador Ternário
+
+const idade = 19;
+
+const ternario = idade >= 18 ? "Maior de idade" : "Menor de idade";
+console.log(ternario);
